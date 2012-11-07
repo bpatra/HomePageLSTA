@@ -1,0 +1,397 @@
+
+
+body {
+padding:20px 32px;
+margin:0;
+font:80% tahoma, verdana, sans-serif;
+background: #f4f5f9;
+color: #022952;
+}
+
+
+#sideshadow {
+margin:0 auto 0 auto;
+width:792px;
+background: #f4f5f9 url(images/ombrecotes.png);
+}
+
+
+#bottomshadow {
+margin:0px;
+padding:0;
+width:792px;
+height:12px;
+background: #f4f5f9 url(images/ombrebas.png) bottom no-repeat;
+}
+
+
+
+#coins {
+    margin:0 auto 0 auto;
+    padding:0;
+    width:792px;
+    height:25px;
+    background: url(images/coins2.gif) top no-repeat;
+}
+
+
+#header {
+    margin:0 auto 0 auto;
+    padding:0;
+    clear:both;
+    width:770px;
+    /* background: #9ab0e4 url(images/headcornerleft.png) top left no-repeat; */
+    background: #9ab0e4;
+    text-align:center;
+}
+
+
+#header h1 {
+    margin:0;
+    padding:0 0 20px 0;
+    border:none;
+    color: #274690;
+    /* background: url(images/headcornerright.png) top right no-repeat; */
+    /*background: url(images/coins.png) top no-repeat;*/
+    font-size:2.3em;
+    font-weight:normal;
+}
+
+
+#header a, #header a:hover, #header a:visited {
+    margin:0;
+    padding:0;
+    color: #274690;
+    text-decoration:none;
+    border:none;
+}
+
+
+#header a:hover {
+color: #022952;
+}
+
+
+#navitabs {
+    clear:both;
+    margin:1px auto 0;
+    padding: 6px 0 11px;
+    width:770px;
+    background: url(images/menubg.png);
+}
+
+
+.navitab, .navitab:hover, .activenavitab, .activenavitab:hover {
+padding:4px 0px;
+margin:4px 0 0 16px;
+text-decoration:none;
+font-size:1.2em;
+font-variant:small-caps;
+font-weight:500;
+color:#ffffff;
+border:none;
+}
+
+
+.navitab:hover, .activenavitab, .activenavitab:hover {
+border-bottom:3px solid #9ab0e4;
+}
+
+
+#subheader {
+clear:both;
+margin:1px auto 0;
+padding: 6px 0 11px;
+width:770px;
+background: url(images/menubg.png) top;
+}
+
+
+#subheader a, #subheader a:hover, #subheader a:visited { 
+padding:4px 0px;
+margin:4px 0 0 16px;
+text-decoration:none;
+font-size:1.2em;
+font-variant:small-caps;
+font-weight:500;
+color:#ffffff;
+border:none;
+}
+
+
+#container {
+margin:0 auto 0 auto;
+padding:0px;
+width:766px;
+background: #e8edf9;
+border:2px solid #9ab0e4;
+}
+
+
+.main {
+margin:0;
+padding:16px 0 0 16px;
+float:left;
+width:550px;
+}
+
+
+.main ol, ul {
+margin:8px 0;
+padding:0;
+line-height:1.5em;
+}
+
+
+.main ul {
+list-style:none;
+}
+
+
+.main ul li {
+margin:0 16px;
+padding:0;
+}
+
+
+.main ol li {
+margin:0 20px;
+padding:0;
+}
+
+
+.main ol li ul {
+margin:8px;
+padding:0;
+}
+
+.main ol li ul li {
+margin:0 16px;
+padding: 0;
+}
+
+
+.main a, a:hover {
+color:#3760bb;
+text-decoration:none;
+}
+
+
+.main a:hover {
+color:#022952;
+}
+
+
+.main p {
+margin:0 0 16px;
+padding:0;
+line-height:1.5em;
+text-align:left;
+}
+
+
+.main h1 {
+margin:0;
+padding:0;
+font-size:1.6em;
+font-weight:normal;
+}
+
+
+.main h2 {
+margin:0 0 16px;
+padding:0;
+font-size:1.6em;
+font-weight:normal;
+}
+
+
+.main h3, .block h2 {
+margin:0 0 16px;
+padding:0;
+font-size:1.3em;
+font-weight:normal;
+}
+
+
+#side {
+margin:0;
+padding:20px 16px 0 0;
+float:right;
+width:178px;
+}
+
+
+#side p {
+margin:0 0 16px;
+padding:0;
+float:right;
+}
+
+
+.sidelink, .sidelink:hover, .activesidelink, .activesidelink:hover {
+padding:3px 4px 3px 8px;
+margin:0 0 5px 0;
+text-decoration:none;
+text-align:left;
+display:block;
+width:146px;
+color: #022952;
+background: #9ab0e4 url(images/corner.gif) top right no-repeat;
+border:none;
+border-left: 3px solid #4870ce;
+}
+
+
+.sidelink:hover, .activesidelink, .activesidelink:hover {
+color: #ffffff;
+background:#4870ce url(images/corner.gif) top right no-repeat;
+}
+
+
+#footer {
+margin:0 auto 0 auto;
+padding:8px 16px;
+clear: both;
+width:734px;
+height: 16px;
+color: #274690;
+background-color:#809cdd;
+text-align: center;
+border-top:1px solid #9ab0e4;
+}
+
+
+#footer p { 
+margin:0;
+padding:0;
+}
+
+
+#footer h1 { 
+margin:0;
+padding:0;
+font-size:100%;
+font-weight:normal;
+float:left;
+}
+
+
+#footer h2 {
+margin:0;
+padding:0;
+font-size:100%;
+font-weight:bold;
+float:right;
+}
+
+
+#footer a, a:hover {
+margin:0;
+padding:0;
+color:#022952;
+text-decoration:none;
+border:none;
+}
+
+
+
+.hide {
+display:none;
+}
+
+
+h3.right {
+float:right;
+text-align:right;
+}
+
+
+img, img.right {
+margin:0;
+padding:2px;
+background-color: #e8edf9;
+border:1px solid #9ab0e4;
+}
+
+
+img.right {
+float:right;
+margin:0 0 16px 16px;
+}
+
+
+.block, .member, .annonce {
+margin:0 0 16px;
+padding:8px 8px 8px 16px;
+background:#ffffff;
+border:1px solid #9ab0e4;
+line-height:1.5em;
+}
+
+.block h3 {
+font-size:1em;
+}
+
+.member {
+padding:8px 8px 8px 16px;
+height: 116px;
+}
+
+
+.member img {
+float:right;
+height:110px;
+/*width:100px;*/
+}
+
+
+.annonce {
+color: #990000;
+background: #f4e5e5;
+border: 1px solid #990000;
+border-left: 3px solid #990000;
+}
+
+
+.annonce a {
+color: #990000;
+border-bottom: 1px dashed #990000;
+}
+
+
+.annonce a:hover {
+color: #990000;
+border-bottom: 1px solid #990000;
+}
+
+
+.pdf, .pdf:hover { 
+margin:0;
+padding: 1px 15px 1px 0px;
+background:url(images/pdflogo.gif) right no-repeat;
+}
+
+
+.titre {
+color: #800000;
+font-weight: bold;
+}
+
+
+/* par defaut le resume est cache */
+.resume {
+ visibility: hidden;
+ overflow: hidden;
+ height: 1px;
+ margin-top: -1px;
+ position: absolute;
+}
+
+.cachediv {
+ visibility: hidden;
+ overflow: hidden;
+ height: 1px;
+ margin-top: -1px;
+ position: absolute;
+ }
