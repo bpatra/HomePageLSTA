@@ -262,6 +262,26 @@ color: #ffffff;
 background:#4870ce url(images/corner.gif) top right no-repeat;
 }
 
+.sidelink_SPE, .sidelink_SPE:hover, .activesidelink, .activesidelink:hover {
+padding:3px 4px 3px 8px;
+margin:0 0 5px 0;
+text-decoration:none;
+text-align:left;
+display:block;
+width:146px;
+color: #ffffff;
+background: #022952 url(images/corner.gif) top right no-repeat;
+border:none;
+border-left: 3px solid #4870ce;
+}
+
+
+.sidelink_SPE:hover, .activesidelink, .activesidelink:hover {
+color: #022952;
+background:#9ab0e4 url(images/corner.gif) top right no-repeat;
+}
+
+
 
 #footer {
 margin:0 auto 0 auto;
