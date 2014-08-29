@@ -281,7 +281,17 @@ color: #022952;
 background:#9ab0e4 url(images/corner.gif) top right no-repeat;
 }
 
+.portraitpic{
+width: 127px; 
+height: 140px;
 
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+margin-bottom: 30px;
+
+}
 
 #footer {
 margin:0 auto 0 auto;
